@@ -48,3 +48,25 @@ Thumbs.db
 
 # Database files
 loom.db*
+/tmp/
+
+# Web frontend
+node_modules/
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+
+# Lingui compiled catalogs
+**/locales/**/messages.ts
+
+# Logs
+*.log
+npm-debug.log*
+
+# SBOM output
+/target/sbom/
+
+# Temporary/scratch files
+*.tmp
